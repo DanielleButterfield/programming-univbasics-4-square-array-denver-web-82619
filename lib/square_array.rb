@@ -1,3 +1,7 @@
 def square_array(array)
-  # your code here
+  counter = 0
+  squarray = Array.new
+  while array[counter] do
+  squarray << array[counter]*array[counter]
+  end
 end
